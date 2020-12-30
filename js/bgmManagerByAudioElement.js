@@ -31,6 +31,17 @@ function initPlayer(player, src, play) {
 	}
 }
 
+// =================================基础功能======================================================
+document.getElementById("vol-ctr").addEventListener("click", function() {
+	if(audioPlayer.volume != 0) {
+		audioPlayer.volume = 0;
+		this.children[0].innerHTML = "&#xe601;";
+	}else {
+		audioPlayer.volume = 0.5
+		this.children[0].innerHTML = "&#xe600";
+	}
+})
+
 // =================================滚动歌词======================================================
 var curLyric = {};
 var curLyricKeys = [];

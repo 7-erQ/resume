@@ -1651,4 +1651,14 @@ section {
 	}
 }
 
-@media only screen and (max-width: 1580px) {}
+@media screen and (max-width:1400px){
+	.arrow-wrapper {
+		display: none;
+	}
+}
+
+@media screen and (max-width:1000px){
+	.postcard-cantainer {
+		width: 90%;
+	}
+}
