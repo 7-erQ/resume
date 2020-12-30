@@ -1,0 +1,172 @@
+{
+	"frontend": {
+		"p0": {
+			"projectType": "前端",
+			"fileType": "img",
+			"title": "鞋企件资报账web应用",
+			"date": "2019.07-2020.04",
+			"tags": ["js", "vue.js", "uni-app", "web应用", "移动端", "版权注意!"],
+			"url": ["static/frontend-img-01-01.jpeg","static/frontend-img-01-02.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目的目的是配套公司PC端的erp软件，做一个鞋企车间管理人员每日报账、审核、查询、管理的应用。这是我前端工作的第一个项目，从UI设计到交互开发，可以说98%都是自己独立完成的。这个项目一路做下来真的收获很多，关于这个项目也有很多话想说，总的来说就是：1.通过这个项目，我收获了太多东西：开发、设计、维护、文档编写、数据处理、实施……。2.我发现自己还蛮擅长处理各种需求的，真想分享一些其中的思路。3.真的非常感谢公司和牛逼的前辈们。"
+		},
+		"p1": {
+			"projectType": "前端",
+			"fileType": "img",
+			"title": "触控概念界面",
+			"date": "2019.07-2020.04",
+			"tags": ["js", "vue.js", "uni-app", "web应用", "移动端", "版权注意!"],
+			"url": ["static/frontend-img-02-01.png"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原本公司打算给鞋企工厂里的品检配平板，要做个操作界面，当时简单的设计了个界面，不过后来计划取消了，也就没用上。"
+		},
+		"p2": {
+			"projectType": "前端",
+			"fileType": "img",
+			"title": "仿SAO风格信息框",
+			"date": "2020.05-2020.06",
+			"tags": ["js", "swiper.js"],
+			"url": ["static/frontend-img-03-01.gif","static/frontend-img-03-02.gif"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为自己装了SAOUtils作为电脑桌面美化和资源管理工具，在布置桌面时想到可以借用这个工具的桌面网页挂件，写个消息栏。刚开始是获取鱼塘热榜的接口，后来接口不开放了，也就变成现实静态消息的装饰了。不过等个人博客后端搭好后就可以拿来获取评论了。"
+		}
+	},
+	"painting": {
+		"p0": {
+			"projectType": "美术",
+			"fileType": "img",
+			"title": "像素画人像",
+			"date": "2018.09",
+			"tags": ["原创", "像素", "dotpic"],
+			"url": ["static/painting-img-01-01.jpg","static/painting-img-01-02.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首次尝试像素画。当时找不到工作宅在家，同时又有在指导堂弟学美术，然后他给我看一个他们班上同学画的像素画，因此知道这个app，后来闲的无聊时突然兴起就下了下来，然后画了2张发表后又卸了。"
+		},
+		"p1": {
+			"projectType": "美术",
+			"fileType": "img",
+			"title": "What a Life",
+			"date": "2018.12.03",
+			"tags": ["原创", "Photoshop", "鼠绘"],
+			"url": ["static/painting-img-02.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美工助理时期没图抠的时候用鼠标画的。"
+		},
+		"p2": {
+			"projectType": "美术",
+			"fileType": "img",
+			"title": "Live or Die（未完成）",
+			"date": "2018.12.08",
+			"tags": ["原创", "Photoshop", "鼠绘"],
+			"url": ["static/painting-img-03.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美工助理时期没图抠的时候用鼠标画的*2。设想是左边医院，右边酒店，一个医生和一个杀手的故事。这张有打算完整画完，目前算个坑。。"
+		},
+		"p3": {
+			"projectType": "美术",
+			"fileType": "img",
+			"title": "八重樱",
+			"date": "2019.02.01",
+			"tags": ["同人", "SAI", "Photoshop", "板绘"],
+			"url": ["static/painting-img-04.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总算用上板子了，19年过年买了个友基EX12，然后就画了这张，emmm...上色真是瞎了我的眼。。"
+		}
+	},
+	"artDesign": {
+		"p0": {
+			"projectType": "美工/设计",
+			"fileType": "img",
+			"title": "促销页",
+			"date": "2018.02.01",
+			"tags": ["合成", "Photoshop", "版权注意!"],
+			"url": ["static/artDesign-img-01.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这图是比较早的练手作，背景是网上的，然后自己添加了各种装饰和效果。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美工助理（抠图仔）是我的第一份工作，做了2个月，也帮忙仓库发货，忙过了双十一和双十二之后就辞职了。平时主要工作就是抠图，没图抠的时候老板娘也叫我学学做淘宝那种商品长图，所以闲暇时就用抠好的图练手学平面设计，偶尔美工撇一眼看到会指导一二，团队里的精修也教我一些调色修图，因此美工助理这两个月也是有趣的时光。"
+		},
+		"p1": {
+			"projectType": "美工/设计",
+			"fileType": "img",
+			"title": "版头图",
+			"date": "2018.02.05",
+			"tags": ["合成", "创意学习", "Photoshop", "版权注意!"],
+			"url": ["static/artDesign-img-02.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参考网上鞋盒子效果作为背景来展示鞋的设计思路，自己做了这个童鞋版的。（抠这些素材真折磨人。。）"
+		},
+		"p2": {
+			"projectType": "美工/设计",
+			"fileType": "img",
+			"title": "海报",
+			"date": "2018.02.07",
+			"tags": ["合成", "原创创意", "Photoshop", "版权注意!"],
+			"url": ["static/artDesign-img-03.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这张原本只是想试做一张竖向的海报，当时没有思路也没啥方向，就是做一步想一步，想一步做一步，一步步下来最终呈现的样子，感觉最终效果还挺不错，主题表达也蛮到位。"
+		},
+		"p3": {
+			"projectType": "美工/设计",
+			"fileType": "img",
+			"title": "淘宝主图（截选）",
+			"date": "2018.11.23",
+			"tags": ["合成", "原创创意", "Photoshop", "版权注意!"],
+			"url": ["static/artDesign-img-04.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个是真的下手试做淘宝主图了，从版头、款式、亮点、尺码、详情……完整做下来，算是技术最密集的一张。这里截选个人感觉做的最好的亮点展示的部分。"
+		},
+		"p4": {
+			"projectType": "美工/设计",
+			"fileType": "img",
+			"title": "锁屏壁纸",
+			"date": "2018.12",
+			"tags": ["二创", "Photoshop"],
+			"url": ["static/artDesign-img-05.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这张是逛花瓣时刷到的图，感觉拍得很好看，于是拿来修图调色、添加文字，最后做成手机锁屏。"
+		},
+		"p5": {
+			"projectType": "美工/设计",
+			"fileType": "img",
+			"title": "练手",
+			"date": "2019.09",
+			"tags": ["合成", "原创创意", "Photoshop"],
+			"url": ["static/artDesign-img-06.jpg"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忘记当初做这张的目的是啥了，那时我已经在做前端了，原工程也在当时公司配的电脑上，后来这张用在转正述职PPT里，现在做这个个人主页时想用才起来已经跟着电脑交接了。。。这里第一页banner用的图是从转正述职PPT里提取的。"
+		},
+		"p6": {
+			"projectType": "美工/设计",
+			"fileType": "img",
+			"title": "手机应用培训PPT",
+			"date": "2019.09.29",
+			"tags": ["原创", "PowerPoint", "版权注意!"],
+			"url": ["static/artDesign-img-07.png"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个是自己负责的移动端web应用在推行实施阶段做的文档之一，即培训讲解用的PPT。当时一步步操作都做了相应的动画效果还原，所以没进入演示画面的预览图那叫一个乱啊。。。"
+		}
+	},
+	"gameDev": {
+		"p0": {
+			"projectType": "游戏开发",
+			"fileType": "img",
+			"title": "2D平台跳跃学习",
+			"date": "2020.05-2020.06",
+			"tags": ["教学跟做", "Unity", "2D", "UGUI"],
+			"url": ["static/gameDev-img-01.png"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学习Unity时跟做的第一个项目，一个2D平台跳跃类型的Demo，涉及主界面场景、UI按钮、背景音乐、樱花/雨滴粒子、触碰收集/扣血......跟着B站视频做一半发现素材不全，于是找到出处是Design+Code的教程，里面有成品下载，于是便下载下来，然后用dnspy反编译取得源素材文件，后面也分享到B站视频下面。"
+		},
+		"p1": {
+			"projectType": "游戏开发",
+			"fileType": "img",
+			"title": "黑魂简单战斗复刻学习",
+			"date": "2020.06-2020.07",
+			"tags": ["教学跟做", "Unity", "3D", "TimeLine"],
+			"url": ["static/gameDev-img-02.png"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学习Unity时跟做的第二个项目，是B站up傅老师的教程，就是简单地还原黑魂的战斗，包括锁定、普通三连、翻滚、防御、弹反+交互斩……很敬佩傅老师，跟做下来知道了游戏开发中有很多学问（简直像在做学术一样）。。。<br>视频原址：<a>https://www.bilibili.com/video/BV1gW411T7yb</a>"
+		},
+		"p2": {
+			"projectType": "游戏开发",
+			"fileType": "img",
+			"title": "三轨相机脚本（搁置中）",
+			"date": "2020.07-2020.08",
+			"tags": ["原创", "Unity", "C#"],
+			"url": ["static/gameDev-img-03.png"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;急躁了，想边做边学了，于是构思了一个项目，然后。。。然后就先从相机系统开始吧，目标是向辐射4的相机看齐，要做的还蛮多的，目前已实现的有：1.锁定敌人。2.视心偏移。3.三轨道。4.平滑缩放。5.墙体检测。6.人称切换。"
+		},
+		"p3": {
+			"projectType": "游戏开发",
+			"fileType": "img",
+			"title": "3d技能动画",
+			"date": "2020.09",
+			"tags": ["原创", "3dsmax"],
+			"url": ["static/gameDev-img-04-01.gif", "static/gameDev-img-04-02.gif"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;相机系统、搓招系统够用了，于是开始学特效，那首先得有动作吧，于是又开始学模型绑定和骨骼动画，期间做了这个技能动画，想说配合粒子系统做个特效，结果用的那个unity2019版本的粒子拖尾刚好有问题，遂搁置，然后现在在学建模。。。"
+		}
+	}
+}
