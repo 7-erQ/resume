@@ -1,16 +1,19 @@
 let audioPlayer = document.getElementById("audio-player");
 audioPlayer.volume = 0.5
+audioPlayer.loop = false
 
 // const analyser = ctx.createAnalyser(); // 快速傅里叶变换的一个参数
 // analyser.fftSize = 512; // fftSize 的要求是 2 的幂次方。数字越大，得到的结果越精细。
 
 var musicList = ["Mind Over Matter-PVRIS", "All My Life - WILD", "Dirty Paws - Of Monsters And Men", "Exhale - Slotown",
-	"Goin' Back (feat. Zac Barnett) - WILD,Zac Barnett", "Hard Times - Paramore", "Home - 王诗安", "JHR出撃マーチ - 高山成孝",
+	"Goin' Back (feat. Zac Barnett) - WILD,Zac Barnett", "Hard Times - Paramore", "Home - 王诗安",
 	"Last Hope - Paramore", "Nice to See You - Vansire,Floor Cry", "Older - Sasha Sloan", "Only Love - PVRIS",
 	"Only Love (Acoustic) - PVRIS", "Set for Life - Trent Dabbs", "Shots (Broiler Remix) - Imagine Dragons, Broiler",
 	"Soaked Through - Sara", "Stay Alive - José González", "Wait - M83", "Wait (Kygo Remix) - Kygo,M83", "warm blood (messyhair remix) - Flor",
-	"you and i - barnes blvd", "丑八怪 - amy_chanrich", "万事屋ブルース - 灰津尾出男", "终点起点 - LOKEY低调组合"
+	"you and i - barnes blvd"
 ];
+
+var curMusicIndex = 0;
 
 (function(){
 	var randomNum1 = Math.floor(Math.random() * 2); // 0~1
@@ -20,9 +23,10 @@ var musicList = ["Mind Over Matter-PVRIS", "All My Life - WILD", "Dirty Paws - O
 	var randomNum2 = Math.floor(Math.random() * 2);
 	var iStart2 = musicList.indexOf("Wait - M83");
 	musicList.splice(iStart2 + randomNum2,1);
+	
+	curMusicIndex = Math.floor(Math.random() * musicList.length);
 }())
 
-var curMusicIndex = 0;
 
 function initPlayer(player, src, play) {
 	player.src = src;
@@ -533,14 +537,15 @@ audioPlayer.addEventListener("timeupdate", function() {
 	}
 });
 
-//播放结束自动回到开头 
-// audioPlayer.addEventListener("ended", function() {
-// 	// alert('over');
-// 	// curLineNo = 0;
-// 	// this.play();
-// 	// highlightLine();
-// 	// lyricsWrapper.scrollTop = 0;
-// });
+//播放结束
+audioPlayer.addEventListener("ended", function() {
+	audioPlayer.pause();
+	if(audioPlayer.loop) {
+		changeMusic(curMusicIndex);
+	}else{
+		changeMusic((curMusicIndex + 1 + musicList.length) % musicList.length);
+	}
+});
 
 function musicPlay() {
 	audioPlayer.play();

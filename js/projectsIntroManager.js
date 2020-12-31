@@ -181,8 +181,13 @@
 		
 		for (let i = 0; i < indexDotArr.length; i++) {
 			if(i == curItemIndex) {
-				imgDomArr[i].classList.add("img-show");
-				indexDotArr[i].classList.add("index-dot-active");
+				var img=new Image();
+				img.src=imgDomArr[i].src;
+				img.onload=function(){
+				  // console.log('背景图片已加载完毕');
+				  imgDomArr[i].classList.add("img-show");
+				  indexDotArr[i].classList.add("index-dot-active");
+				};
 			}else{
 				imgDomArr[i].classList.remove("img-show");
 				indexDotArr[i].classList.remove("index-dot-active");

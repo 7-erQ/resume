@@ -212,7 +212,7 @@ section {
 
 .section1-bg-container .section1-bg-2 {
 	background-size: 100% 100%;
-	background-image: url(../static/bg02.png);
+	background-image: url(../static/bg002.png);
 }
 
 .section1-bg-container .section1-bg-3 {
@@ -220,7 +220,7 @@ section {
 }
 
 .section1-bg-container .section1-bg-4 {
-	background-image: url(../static/bg04.png);
+	background-image: url(../static/bg004.png);
 	filter: grayscale(0);
 }
 
@@ -1221,7 +1221,7 @@ section {
 
 .section4-bg-container .section4-bg-2 {
 	/* background-size: 100% 100%; */
-	background-image: url(../static/bg02.png);
+	background-image: url(../static/bg002.png);
 }
 
 .section4-bg-container .section4-bg-3 {
@@ -1229,7 +1229,7 @@ section {
 }
 
 .section4-bg-container .section4-bg-4 {
-	background-image: url(../static/bg04.png);
+	background-image: url(../static/bg004.png);
 	/* filter: grayscale(0); */
 }
 
@@ -1648,6 +1648,13 @@ section {
 	}
 	100%{
 		box-shadow: 0 0 10px rgba(255,255,0,.7);
+	}
+}
+
+@media screen and (max-width:1460px){
+	.section1-bg-container .section1-bg-4 {
+		background-size: 150% auto;
+		background-position: center;
 	}
 }
 
