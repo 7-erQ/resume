@@ -1103,7 +1103,7 @@ section {
 	box-shadow: 0 20px 100px rgba(0, 0, 0, .5);
 }
 
-.article-item-wrapper .articles-container .img-content {
+.article-item-wrapper .img-content {
 	height: 100%;
 	width: 300px;
 	flex-shrink: 0;

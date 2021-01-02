@@ -271,6 +271,8 @@ function onHeadBarItemClicked(target, x, y) {
 			target.style.animation = "";
 			headBarItemAnimTimer = null;
 		}, 1000)
+	}else{
+		window.open('https://lin-qidian.gitee.io/myblog/','_blank');
 	}
 }
 
@@ -281,3 +283,9 @@ function headBarVisiable() {
 		document.getElementById("header-bar").style.visibility = "visible";
 	}
 }
+
+// function getScrollDir() {
+// 	var t = document.documentElement;
+// 	var d = window.pageYOffset || t.scrollTop || document.body.scrollTop || 0;
+// 	return (d > 10)
+// }
