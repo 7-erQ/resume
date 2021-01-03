@@ -246,7 +246,6 @@ section {
 	width: 62px;
 	height: 62px;
 	cursor: pointer;
-	opacity: 0.3;
 }
 
 .arrow-wrapper-right {
@@ -260,6 +259,7 @@ section {
 	position: absolute;
 	left: 20px;
 	top: 50%;
+	opacity: 0.3;
 	transform: translateY(-50%) rotate(135deg);
 }
 
@@ -1091,8 +1091,8 @@ section {
 
 .section3-container .articles-wrapper .articles-container .article-item-wrapper {
 	width: 76%;
-	height: 320px;
-	margin-top: 60px;
+	height: 300px;
+	margin-top: 80px;
 	color: #aaa;
 	display: flex;
 	/* border: solid 1px #aaa; */
@@ -1691,6 +1691,8 @@ section {
 	.music-wrapper {
 		width: 90%;
 	}
+	
+	
 }
 
 @media screen and (max-width:1400px){
@@ -1704,6 +1706,10 @@ section {
 	
 	.postcard-cantainer {
 		width: 90%;
+	}
+	
+	.site-intro-wrapper {
+		width: 98%;
 	}
 	
 	.lyrics-wrapper {

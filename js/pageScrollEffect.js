@@ -255,27 +255,6 @@ function bodyScroll() {
 	headBarVisiable();
 }
 
-function onHeadBarItemClicked(target, x, y) {
-	var temp = `${x}_${y}`;
-	if (curHeadBarItem == temp && headBarItemAnimTimer != null) {
-		return
-	}
-	curHeadBarItem = temp;
-	if (y == 2) {
-		var orignText = target.innerHTML;
-		target.style.animation = "nothing 0.25s forwards";
-		target.innerHTML = ">﹏<。"
-		// >﹏<。| ╮(╯▽╰)╭ | ╮（╯＿╰）╭
-		headBarItemAnimTimer = setTimeout(() => {
-			target.innerHTML = orignText;
-			target.style.animation = "";
-			headBarItemAnimTimer = null;
-		}, 1000)
-	}else{
-		window.open('https://lin-qidian.gitee.io/myblog/','_blank');
-	}
-}
-
 function headBarVisiable() {
 	if (Math.ceil(curScrollTop) >= bgHeight) {
 		document.getElementById("header-bar").style.visibility = "hidden";
