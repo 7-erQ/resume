@@ -1704,6 +1704,14 @@ section {
 		-webkit-tap-highlight-color: transparent;
 	}
 	
+	.section1-bg-container .section1-bg-1,
+	.section1-bg-container .section1-bg-2,
+	.section1-bg-container .section1-bg-3 {
+		min-width: 1920px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
 	.postcard-cantainer {
 		width: 90%;
 	}
