@@ -21,11 +21,11 @@
 		"p2": {
 			"projectType": "前端",
 			"fileType": "img",
-			"title": "仿SAO风格信息框",
+			"title": "SAO风格每日热榜信息框",
 			"date": "2020.05-2020.06",
 			"tags": ["js", "swiper.js"],
 			"url": ["static/frontend-img-03-01.gif","static/frontend-img-03-02.gif"],
-			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为自己装了SAOUtils作为电脑桌面美化和资源管理工具，在布置桌面时想到可以借用这个工具的桌面网页挂件，写个消息栏。刚开始是获取鱼塘热榜的接口，后来接口不开放了，也就变成现实静态消息的装饰了。不过等个人博客后端搭好后就可以拿来获取评论了。"
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为自己装了SAOUtils作为电脑桌面美化和资源管理工具，在布置桌面时想到可以借用这个工具的桌面网页挂件，写个消息栏。目前显示的数据来源是“鱼塘热榜”的接口，后续也可以用来显示个人博客的评论。"
 		}
 	},
 	"painting": {
