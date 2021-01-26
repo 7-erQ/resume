@@ -167,6 +167,15 @@
 			"tags": ["原创", "3dsmax"],
 			"url": ["static/gameDev-img-04-01.gif", "static/gameDev-img-04-02.gif"],
 			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;相机系统、搓招系统够用了，于是开始学特效，那首先得有动作吧，于是又开始学模型绑定和骨骼动画，期间做了这个技能动画，想说配合粒子系统做个特效，结果用的那个unity2019版本的粒子拖尾刚好有问题，遂搁置，然后现在在学建模。。。"
+		},
+		"p3": {
+			"projectType": "游戏开发",
+			"fileType": "img",
+			"title": "下劈动作练习",
+			"date": "2021.01.26",
+			"tags": ["原创", "动作参考", "3dsmax"],
+			"url": ["static/gameDev-img-05-01.gif", "static/gameDev-img-05-02.gif"],
+			"introText": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加了个野生大佬的动作练习群，这个是第一周的练习，参考一个真人下劈的动作K动画。由于不会编辑曲线，所以节奏和细节还差点。"
 		}
 	}
 }
