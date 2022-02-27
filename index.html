@@ -8,8 +8,8 @@
 		<meta http-equiv="Cache-control" content="no-cache">
 		<meta http-equiv="Cache" content="no-cache">
 		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?">
-		<link rel="stylesheet" type="text/css" href="./css/style.css?version=20220228" />
-		<link rel="stylesheet" type="text/css" href="./css/icon-font/iconfont.css?version=20220228" />
+		<link rel="stylesheet" type="text/css" href="./css/style.css?version=202202280135" />
+		<link rel="stylesheet" type="text/css" href="./css/icon-font/iconfont.css?version=202202280135" />
 	</head>
 	<body>
 		<div class="wrapper">
@@ -136,7 +136,7 @@
 								<div class="arrow arrow2"></div>
 							</div>
 						</div>
-						<div class="projects-intro-container">
+						<div class="projects-intro-container" id="projects-intro-container">
 							<div class="show-box-wrapper">
 								<div class="show-box-container">
 									<div class="extra-shape"></div>
@@ -373,19 +373,22 @@
 
 	<!-- <script src="./js/jquery-3.5.1.js" type="text/javascript" charset="utf-8"></script> -->
 	<!-- <script src="./js/JQfix.js" type="text/javascript" charset="utf-8"></script> -->
-	<script src="./js/utils.js?version=20220228" type="text/javascript" charset="utf-8"></script>
-	<script src="./js/pageScrollEffect.js?version=20220228"></script>
-	<script src="./js/bgmManagerByAudioElement.js?version=20220228" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/utils.js?version=202202280135" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/pageScrollEffect.js?version=202202280135"></script>
+	<script src="./js/bgmManagerByAudioElement.js?version=202202280135" type="text/javascript" charset="utf-8"></script>
 	<!-- <script src="./js/bgmManagerByWebAudioAPI.js" type="text/javascript" charset="utf-8"></script> -->
-	<script src="./js/pageSelector.js?version=20220228" type="text/javascript" charset="utf-8"></script>
-	<script src="./js/projectsIntroManager.js?version=20220228" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/pageSelector.js?version=202202280135" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/projectsIntroManager.js?version=202202280135" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		onRollArrowClicked = function(index) {
-			var moveTarget = document.getElementById("personal-intro-container");
+			var personalIntro = document.getElementById("personal-intro-container");
+			var projectsIntro = document.getElementById("projects-intro-container");
 			if(index==0) {
-				moveTarget.classList.add("personal-intro-container-hide");
+				personalIntro.classList.add("personal-intro-container-hide");
+				projectsIntro.classList.add("projects-intro-container-show");
 			}else{
-				moveTarget.classList.remove("personal-intro-container-hide");
+				personalIntro.classList.remove("personal-intro-container-hide");
+				projectsIntro.classList.remove("projects-intro-container-show");
 			}
 		}
 

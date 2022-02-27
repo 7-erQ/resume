@@ -302,13 +302,15 @@ section {
 	justify-content: space-between;
 	flex-shrink: 0;
 	/* padding-top: 56px; */
-	margin-left: 0;
-	transition: margin-left 0.8s ease-in-out;
+	/* margin-left: 0; */
+	transition: transform 0.8s ease-in-out;
+	transform: translate3d(0, 0, 0);
 	position: relative;
 }
 
 .personal-intro-container.personal-intro-container-hide {
-	margin-left: -100%;
+	/* margin-left: -100%; */
+	transform: translate3d(-100%, 0, 0);
 }
 
 .postcard-wrapper {
@@ -549,7 +551,13 @@ section {
 	display: flex;
 	flex-direction: row;
 	position: relative;
+	transition: transform 0.8s ease-in-out;
+	transform: translate3d(0, 0, 0);
 	/* background-color: #555; */
+}
+
+.projects-intro-container.projects-intro-container-show {
+	transform: translate3d(-100%, 0, 0);
 }
 
 .projects-intro-container .show-box-wrapper {
