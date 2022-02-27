@@ -409,7 +409,7 @@
 				return
 			}
 			curHeadBarItem = temp;
-			if (y == 2) {
+			if (y != 0) {
 				var orignText = target.innerHTML;
 				target.style.animation = "nothing 0.25s forwards";
 				target.innerHTML = ">﹏<。"
@@ -420,12 +420,12 @@
 					headBarItemAnimTimer = null;
 				}, 1000)
 			}else{
-				window.open('https://lin-qidian.gitee.io/myblog/','_blank');
+				window.open('https://lin-qidian_admin.gitee.io/myblog/','_blank');
 			}
 		}
 		
 		function goBlog() {
-			window.open('https://lin-qidian.gitee.io/myblog/','_blank');
+			window.open('https://lin-qidian_admin.gitee.io/myblog/','_blank');
 		}
 	</script>
 </html>

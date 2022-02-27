@@ -594,6 +594,5 @@ function changeMusic(index) {
 	initPlayer(audioPlayer, "static/bgm/" + musicList[curMusicIndex] + ".mp3", true);
 	initLyrics("json/lyrics/" + musicList[curMusicIndex] + ".json");
 	initProgress();
-	rollTitleBar.initRollTitle(musicList[curMusicIndex], true);
 	musicPlay();
 }
