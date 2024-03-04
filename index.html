@@ -8,7 +8,7 @@
 		<meta http-equiv="Cache-control" content="no-cache">
 		<meta http-equiv="Cache" content="no-cache">
 		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?">
-		<link rel="stylesheet" type="text/css" href="./css/style.css?version=202202280135" />
+		<link rel="stylesheet" type="text/css" href="./css/style.css?version=202403041635" />
 		<link rel="stylesheet" type="text/css" href="./css/icon-font/iconfont.css?version=202202280135" />
 	</head>
 	<body>
@@ -93,7 +93,7 @@
 									<div class="site-intro-wrapper">
 										<h1>关于本站</h1>
 										<p>兴趣使然做了这个个人网站，设计上学习扁平化风格；技术上用原生js编写，借此巩固一下web前端基础。当然，我也会在此不定时分享些喜欢的音乐或者发布些近期的作品。希望大家常来逛逛。</p>
-										<p>主页更多功能还在完善中，点击页面上的链接移步个人博客，后端搭建中（新建文件夹了），先继续学Unity去。。。</p>
+										<p>主页更多功能还在完善中，点击页面上的链接移步个人博客，先继续学Unity去。。。</p>
 									</div>
 								</div>
 							</div>
@@ -243,54 +243,70 @@
 																查看数 
 																-->
 																<div class="img-content">
-																	<img src="" >
+																	<img class="content-img" src="static/blog/xmind8_tip.png" >
 																</div>
 																<div class="text-content">
-																	<span>2020.12.25</span>
-																	<h1>博文标题-博客文章的标题</h1>
-																	<span>标签1 标签2 标签3 标签4</span>
-																	<span><span>分类/子分类</span><span>浏览次数：123</span></span>
-																	<p>博文正文，博文正文博文正文博文正文博文正文博文正文博文正文博文正文博文正文博文正文，博文正文博文正文博文正文博文正文博文正文，博文正文博文正文博文正文。</p>
-																	<a onclick="goBlog()">阅读原文→</a>
+																	<span>2024.02.28</span>
+																	<h1>【生产力】一种使用Xmind8做笔记的技巧分享</h1>
+																	<span>生产力 Xmind8 笔记 思维导图</span>
+																	<span><span>生产力/小技巧</span><span>浏览次数：4</span></span>
+																	<p>正所谓“好记性不如烂笔头”，在平时工作和学习中，我们经常需要做文本的记录，以帮助我们梳理新知识、分析数据或是建立个人知识库。
+
+我也尝试了一些网上大佬们分享的方法，目前体验下来我自己觉得对于较庞大的系统性知识，可以用Obsidian(https://obsidian.md/)来帮助我们记录：
+...
+</p>
+																	<a onclick="goBlog('https://www.bilibili.com/read/cv32177559/?spm_id_from=333.999.0.0')">阅读原文→</a>
 																</div>
 															</div>
 															<div class="article-item-wrapper">
 																<div class="img-content">
-																	<img src="" >
+																	<img class="content-img" src="static/blog/text_effect.png" >
 																</div>
 																<div class="text-content">
-																	<span>2020.08.30</span>
-																	<h1>Unity使用VS Code编辑时，代码补全提示不全的解决记录</h1>
-																	<span>Unity UnityEditor VScode 开发</span>
-																	<span><span>Unity/学习经验</span><span>浏览次数：223</span></span>
-																	<p>最近用Unity2020新开了个项目，结果在脚本编写时VScode没有显示Unity库的代码提示，导致诸多不便，于是便在网上找起了解决方法。
-								
-								一通查找后看到的有重装.NET Framework版本的；有回退VsCode的C#插件版本的；还有更改项目.csproj文件版本号的。。。
-								
-								然而上面3的法操作起来既麻烦又不是很安全。
-								
-								
-								
-								后来想起来之前在外网论坛上有个老哥在项目脚本里引用了Cinemachine后编译器报错，也不提示Cinemachine的方法，但是回到Unity编辑器却能正常工作，
-								
-								这里底下给出的回复是保存项目，然后关掉编译器和Unity编辑器，接着删掉项目文件夹下的.csproj和.sln这两个文件（如果你用的IDE是VS的话那么还有一个.vs的隐藏文件夹），然后重开项目，系统就又会重新生成匹配的.csproj和.sln文件。
-								
-								以后在使用新的Unity版本或者引用新的工具库时，出现编译器不提示的情况就可以照上面的方法解决，不过安全起见，在删之前最好还是备份下.csproj和.sln这两个文件。</p>
-																	<a onclick="goBlog()">阅读原文→</a>
+																	<span>2022.03.25</span>
+																	<h1>【Unity】【组件】UGUI文字阴影、渐变、描边</h1>
+																	<span>Unity UGUI 文字渐变 文字阴影</span>
+																	<span><span>Unity/工具组件</span><span>浏览次数：3792</span></span>
+																	<p>由于策划们经常需要给文字添加描边的效果，以防止文字看不清或者用来强调一些文字。之前一直用的都是Unity自带的Outline组件实现文字描边，在效果和性能上都很差。而如果使用TextMeshPro的话，又需要对每种语言都做资源，会多出很多工作量，并增加包体。所以需要另寻方法实现一个文字描边的组件。
+
+        在网上找了一圈，感觉用Shader实现挺符合需求，但一般用于Mesh描边的Shader又用不了，变成了一个方框描边，推测是Unity先对于文字形状进行了处理，计算并生成了一张文字图案的UV，然后将UV应用在一个面片上，这样就减少了最终显示在画面上的面数和定点数。而这些文字形状的顶点数据则是以UIVertex类型存在。
+																	</p>
+																	<a onclick="goBlog('https://www.bilibili.com/read/cv15831501/?spm_id_from=333.999.0.0')">阅读原文→</a>
 																</div>
 															</div>
 															<div class="article-item-wrapper">
 																<div class="img-content">
-																	<img src="" >
+																	<img class="content-img" src="static/blog/assets_link_viewer.png" >
 																</div>
 																<div class="text-content">
-																	<span>2020.12.26</span>
-																	<h1>关于本站</h1>
-																	<span>Javascript css html</span>
-																	<span>杂谈/</span>
-																	<span>浏览次数：0</span>
-																	<p>网站施工中，博客施工中。</p>
-																	<a onclick="goBlog()">阅读原文→</a>
+																	<span>2022.03.20</span>
+																	<h1>【Unity】【工具】资源引用&依赖关联查看器</h1>
+																	<span>Unity Unity资源 Unity工具</span>
+																	<span>Unity/工具组件</span>
+																	<span>浏览次数：613</span>
+																	<p>去年写的一个小工具，现在做点小优化后放出来分享。主要是当时没找到合意的插件，于是就借鉴啊不，融合GitHub上两个大神的方案（其一是:https://github.com/Begounet/unity-dependency-graph-viewer，另一个忘记关键词了，现在找不到了），写了这个GraphView版的工具；
+
+        支持的功能：
+
+显示资源的引用和依赖的资源；
+
+设置查找深度
+
+合并数量
+
+过滤资源类型
+
+限定查找目录
+
+限定查找当前场景或仅资源文件或both
+
+小图预览
+
+点击切换目标
+
+悬浮提示
+</p>
+																	<a onclick="goBlog('https://www.bilibili.com/read/cv15749034/?spm_id_from=333.999.0.0')">阅读原文→</a>
 																</div>
 															</div>
 							</div>
@@ -424,12 +440,15 @@
 					headBarItemAnimTimer = null;
 				}, 1000)
 			}else{
-				window.open('https://lin-qidian_admin.gitee.io/myblog/','_blank');
+				goBlog('https://lin-qidian_admin.gitee.io/myblog/','_blank');
 			}
 		}
 		
-		function goBlog() {
-			window.open('https://lin-qidian_admin.gitee.io/myblog/','_blank');
+		function goBlog(url) {
+			if(url == null) {
+				url = 'https://lin-qidian_admin.gitee.io/myblog/';
+			}
+			window.open(url,'_blank');
 		}
 	</script>
 </html>

@@ -1142,6 +1142,12 @@ section {
 	/* border: solid 1px #aaa; */
 }
 
+.article-item-wrapper .img-content .content-img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
 .section3-container .articles-wrapper .articles-container .article-item-wrapper .text-content {
 	display: flex;
 	flex-direction: column;
@@ -1167,6 +1173,8 @@ section {
 .section3-container .articles-wrapper .articles-container .article-item-wrapper .text-content a {
 	font-size: 16px;
 	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
 }
 
 .section3-container .articles-wrapper .articles-container .article-item-wrapper .text-content a:hover {
