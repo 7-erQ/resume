@@ -1921,6 +1921,10 @@ section {
 	.item-card .item-shaper {
 		display: none;
 	}
+	
+	.side-menu-wrapper .side-menu-container {
+		width: 70%;
+	}
 }
 
 @media screen and (max-width:600px){
