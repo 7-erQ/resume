@@ -8,12 +8,15 @@ var zooming = false;
 var bgScroller = document.getElementsByClassName("section1-bg-4")[0];
 var section2 = document.getElementById("section2");
 var section3 = document.getElementById("section3");
+var sideMenuContainer = document.getElementById("side-menu-container");
 var section1ScrollTimer;
 var headBarItemAnimTimer = null;
 var curHeadBarItem = "";
 var scrollBarLength = 0;
 
-scrollUnique(document.getElementById("side-menu-wrapper"));
+// scrollUnique(document.getElementById("side-menu-wrapper"));
+scrollUnique(document.getElementById("side-menu-mask"));
+scrollUnique(document.getElementById("side-menu-container"));
 
 window.onload = function() {
 	// document.getElementById('bgm-player').play();
@@ -147,8 +150,8 @@ window.onload = function() {
 			}
 		}
 	}
-
-	window.onwheel = (ev) => {
+	
+	// window.onwheel = (ev) => {
 		// if(curScrollTop > bgHeight) {
 		// 	return
 		// }
@@ -159,7 +162,7 @@ window.onload = function() {
 		// section1ScrollTimer = setTimeout(() => {
 		// 	section1ScrollCount = 0;
 		// }, 500);
-	}
+	// }
 
 	window.document.body.onscroll = bodyScroll;
 }

@@ -82,18 +82,24 @@
 									</div>
 									<div class="personal-info-cantainer">
 										<span>姓名：7_erQ</span>
-										<span>性别：男</span>
-										<span>年龄：26</span>
-										<span class="">
+										<span>
+											<span>性别：男</span>
+											<span>年龄：29</span>
+										</span>
+										<span>
 											<span>邮箱：963471539@qq.com</span>
-											<span>电话：XXX-XXXX-XXXX</span>
+											<span>电话：13055404927</span>
 										</span>
 										<span>爱好：绘画 音乐 游戏 编程 DIY</span>
+										<span>
+											<span class="text_jump_to text_jump_to_golden" onclick="showSideMenu()">详细履历</span>
+											<span class="text_jump_to text_jump_to_golden" onclick="goBlog()">个人博客</span>
+										</span>
 									</div>
 									<div class="site-intro-wrapper">
 										<h1>关于本站</h1>
-										<p>兴趣使然做了这个个人网站，设计上学习扁平化风格；技术上用原生js编写，借此巩固一下web前端基础。当然，我也会在此不定时分享些喜欢的音乐或者发布些近期的作品。希望大家常来逛逛。</p>
-										<p>主页更多功能还在完善中，点击页面上的链接移步个人博客，先继续学Unity去。。。</p>
+										<p>兴趣使然做了这个个人网站，目前作为个人线上简历。设计上学习扁平化风格；技术上用原生js编写，借此巩固一下web前端基础。当然，我也会在此不定时发布些近期的作品。</p>
+										<p>主页更多功能还在完善中，先继续学Unity去。。。</p>
 									</div>
 								</div>
 							</div>
@@ -131,7 +137,11 @@
 									</div>
 								</div>
 							</div>
-							<div class="arrow-wrapper arrow-wrapper-right" onclick="onRollArrowClicked(0)">
+							<div class="arrow-wrapper arrow-wrapper-right" onclick="onShowProducts(0)">
+								<div class="arrow arrow1"></div>
+								<div class="arrow arrow2"></div>
+							</div>
+							<div class="arrow-wrapper arrow-wrapper-left" onclick="showSideMenu()">
 								<div class="arrow arrow1"></div>
 								<div class="arrow arrow2"></div>
 							</div>
@@ -218,7 +228,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="arrow-wrapper arrow-wrapper-left" onclick="onRollArrowClicked(1)">
+							<div class="arrow-wrapper arrow-wrapper-left" onclick="onShowProducts(1)">
 								<div class="arrow arrow1"></div>
 								<div class="arrow arrow2"></div>
 							</div>
@@ -249,9 +259,9 @@
 																	<span>2024.02.28</span>
 																	<h1>【生产力】一种使用Xmind8做笔记的技巧分享</h1>
 																	<span>生产力 Xmind8 笔记 思维导图</span>
-																	<span><span>生产力/小技巧</span><span>浏览次数：4</span></span>
-																	<p>正所谓“好记性不如烂笔头”，在平时工作和学习中，我们经常需要做文本的记录，以帮助我们梳理新知识、分析数据或是建立个人知识库。
-
+																	<span>生产力/小技巧</span>
+																	<span>浏览次数：4</span>
+																	<p onclick="goBlog('https://www.bilibili.com/read/cv32177559/?spm_id_from=333.999.0.0')">正所谓“好记性不如烂笔头”，在平时工作和学习中，我们经常需要做文本的记录，以帮助我们梳理新知识、分析数据或是建立个人知识库。
 我也尝试了一些网上大佬们分享的方法，目前体验下来我自己觉得对于较庞大的系统性知识，可以用Obsidian(https://obsidian.md/)来帮助我们记录：
 ...
 </p>
@@ -266,8 +276,10 @@
 																	<span>2022.03.25</span>
 																	<h1>【Unity】【组件】UGUI文字阴影、渐变、描边</h1>
 																	<span>Unity UGUI 文字渐变 文字阴影</span>
-																	<span><span>Unity/工具组件</span><span>浏览次数：3792</span></span>
-																	<p>由于策划们经常需要给文字添加描边的效果，以防止文字看不清或者用来强调一些文字。之前一直用的都是Unity自带的Outline组件实现文字描边，在效果和性能上都很差。而如果使用TextMeshPro的话，又需要对每种语言都做资源，会多出很多工作量，并增加包体。所以需要另寻方法实现一个文字描边的组件。
+																	<span>Unity/工具组件</span>
+																	<span>浏览次数：3792</span>
+																	<p onclick="goBlog('https://www.bilibili.com/read/cv15831501/?spm_id_from=333.999.0.0')">
+																		由于策划们经常需要给文字添加描边的效果，以防止文字看不清或者用来强调一些文字。之前一直用的都是Unity自带的Outline组件实现文字描边，在效果和性能上都很差。而如果使用TextMeshPro的话，又需要对每种语言都做资源，会多出很多工作量，并增加包体。所以需要另寻方法实现一个文字描边的组件。
 
         在网上找了一圈，感觉用Shader实现挺符合需求，但一般用于Mesh描边的Shader又用不了，变成了一个方框描边，推测是Unity先对于文字形状进行了处理，计算并生成了一张文字图案的UV，然后将UV应用在一个面片上，这样就减少了最终显示在画面上的面数和定点数。而这些文字形状的顶点数据则是以UIVertex类型存在。
 																	</p>
@@ -284,7 +296,8 @@
 																	<span>Unity Unity资源 Unity工具</span>
 																	<span>Unity/工具组件</span>
 																	<span>浏览次数：613</span>
-																	<p>去年写的一个小工具，现在做点小优化后放出来分享。主要是当时没找到合意的插件，于是就借鉴啊不，融合GitHub上两个大神的方案（其一是:https://github.com/Begounet/unity-dependency-graph-viewer，另一个忘记关键词了，现在找不到了），写了这个GraphView版的工具；
+																	<p onclick="goBlog('https://www.bilibili.com/read/cv15749034/?spm_id_from=333.999.0.0')">
+																		去年写的一个小工具，现在做点小优化后放出来分享。主要是当时没找到合意的插件，于是就借鉴啊不，融合GitHub上两个大神的方案（其一是:https://github.com/Begounet/unity-dependency-graph-viewer，另一个忘记关键词了，现在找不到了），写了这个GraphView版的工具；
 
         支持的功能：
 
@@ -377,10 +390,19 @@
 			</div>
 			
 			<div class="side-menu-wrapper" id="side-menu-wrapper">
-				<div class="side-menu-container">
-					<span class="title">7_erQ</span>
-					<span>写点名人名言？</span>
-					<span>预留侧边栏</span>
+				<div id="side-menu-container" class="side-menu-container beaut-scroll-bar">
+					<span class="title">林其典</span>
+					<!-- <span class="side-menu-item">
+						<span class="side-menu-item-title">工作经历</span>
+						<span class="side-menu-item-card">
+							<span class="side-menu-item-card-title">这是标题</span>
+							<span class="side-menu-item-card-subtitle">
+								<span>这是副标题1</span>
+								<span>这是副标题2</span>
+							</span>
+							<p class="side-menu-item-card-content">这是内容这是内容这是内容这是内容这是内容这是内容</p>
+						</span>
+					</span> -->
 				</div>
 				<div class="side-menu-mask" id="side-menu-mask" onclick="hideSideMenu()"></div>
 			</div>
@@ -396,7 +418,9 @@
 	<script src="./js/pageSelector.js?version=202202280135" type="text/javascript" charset="utf-8"></script>
 	<script src="./js/projectsIntroManager.js?version=202202280135" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
-		onRollArrowClicked = function(index) {
+		let bSideMenuInited = false;
+		
+		onShowProducts = function(index) {
 			var personalIntro = document.getElementById("personal-intro-container");
 			var projectsIntro = document.getElementById("projects-intro-container");
 			if(index==0) {
@@ -415,7 +439,66 @@
 			});
 		}
 		
+		function initSideMenu() {
+			if(bSideMenuInited) return;
+			bSideMenuInited = true;
+			
+			getJson("json/resume.json", (res)=>{
+				let container = document.querySelector("#side-menu-container");
+				for (let key in res) {
+					let data = res[key];
+					let nItem = document.createElement("span");
+					nItem.classList.add("side-menu-item");
+					
+					let nTitle = document.createElement("span");
+					nTitle.innerText = data["title"];
+					nTitle.classList.add("side-menu-item-title");
+					nItem.appendChild(nTitle);
+					
+					let lItem = data["list"];
+					for (let card of lItem) {
+						let sTitle_card = card["title"];
+						let sSubtitle1 = card["subtitle1"];
+						let sSubtitle2 = card["subtitle2"];
+						let sContent = card["content"];
+						
+						let nCard = document.createElement("span");
+						nCard.classList.add("side-menu-item-card");
+						
+						let nTitle_card = document.createElement("span");
+						nTitle_card.innerText = sTitle_card;
+						nTitle_card.classList.add("side-menu-item-card-title");
+						nCard.appendChild(nTitle_card);
+						
+						let nSubTitle = document.createElement("span");
+						nSubTitle.classList.add("side-menu-item-card-subtitle");
+						nCard.appendChild(nSubTitle);
+						
+						let nSubtitle1 = document.createElement("span");
+						nSubtitle1.innerText = sSubtitle1;
+						nSubTitle.appendChild(nSubtitle1);
+						
+						let nSubtitle2 = document.createElement("span");
+						nSubtitle2.innerText = sSubtitle2;
+						nSubTitle.appendChild(nSubtitle2);
+						
+						if(sContent != null) {
+							let nContent = document.createElement("p");
+							nContent.classList.add("side-menu-item-card-content");
+							nContent.innerText = sContent;
+							nCard.appendChild(nContent);
+						}
+						
+						nItem.appendChild(nCard);
+					}
+					
+					container.appendChild(nItem);
+				}
+			});
+		}
+		
 		function showSideMenu() {
+			initSideMenu();
 			document.getElementById("side-menu-wrapper").classList.add("side-menu-wrapper-show");
 		}
 		
@@ -449,6 +532,26 @@
 				url = 'https://lin-qidian_admin.gitee.io/myblog/';
 			}
 			window.open(url,'_blank');
+		}
+		
+		function getJson(url,callback) {
+			var xhr = new XMLHttpRequest();
+			xhr.overrideMimeType("application/json");
+			xhr.open("GET", url, true);
+			if(xhr.readyState) {
+				xhr.onreadystatechange = ()=>{
+					if(xhr.readyState == 4 && xhr.status == 200) {
+						var res = JSON.parse(xhr.response);
+						callback(res);
+					}
+				}
+			}else{
+				xhr.onload = ()=>{
+					var res = JSON.parse(xhr.response);
+					callback(res);
+				}
+			}
+			xhr.send();
 		}
 	</script>
 </html>

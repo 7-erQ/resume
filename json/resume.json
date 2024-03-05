@@ -1,0 +1,46 @@
+{
+	"experience": {
+		"title": "工作经历",
+		"list": [{
+				"title": "厦门简创网络科技有限公司",
+				"subtitle1": "unity开发工程师",
+				"subtitle2": "2021.03-2023.11",
+				"content": "• Unity客户端游戏及SDK组件库开发。\n• Unity项目热更技术实现(ILruntime、HybridCLR)。\n• cocos2d客户端游戏及组件库开发。\n• Unity项目优化及问题修复。"
+			},
+			{
+				"title": "晋江市博思企业管理咨询有限公司",
+				"subtitle1": "web前端",
+				"subtitle2": "2019.05-2020.04",
+				"content": "工作期间主要负责移动端企业微信件资报账web应用开发和PC端erp系统数据维护。内容涉及web应用设计、开发；图标制作；数据库管理工具使用、后端接口仿写、修改等。"
+			},{
+				"title": "晋江市卓创摄影",
+				"subtitle1": "美工",
+				"subtitle2": "2018.10-2018.12",
+				"content": "任职期间主要负责产品抠图和白底图切图，期间学会了Photoshop常用操作，简单的详情页、海报制作和调色基础。"
+			}
+		]
+	},
+	"education" : {
+		"title": "教育经历",
+		"list": [{
+			"title": "晋江市芯华集成电路人才培训中心",
+			"subtitle1": "半导体集成电路",
+			"subtitle2": "2018.10-2019.1",
+			"content": "参加人才培训班，已修完IC设计、制造、封测、厂务管理系列基础课程。"
+		},{
+			"title": "福建师范大学",
+			"subtitle1": "经济学",
+			"subtitle2": "2014.9-2018.6",
+			"content": "• 经济学本科证书\n• 经济学学士学位证书"
+		}]
+	},
+	"qualification" : {
+		"title": "资格证书",
+		"list": [{
+			"title": "",
+			"subtitle1": "",
+			"subtitle2": "",
+			"content": "• 大学英语四级\n• 计算机一级"
+		}]
+	}
+}
